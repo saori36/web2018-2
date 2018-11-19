@@ -1,6 +1,9 @@
 function txtchange1(){
-   document.getElementById('txt1').innerHTML ='ナンバーワン!';
+document.getElementById('txt1').innerHTML ='ナンバーワン!';
 }
 function imgchange1(){
-  document.getElementById('logo').src ='./image/josai1.png';
+ document.getElementById('logo').src = './image/josai.png';
+}
+function imgchange2(){
+ document.getElementById('logo').src = './image/josai1.png';
 }
