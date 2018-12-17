@@ -14,7 +14,8 @@
  <script src="ex09-2.js"></script>
  <script src="ex06-12.js"></script>
  <script src="ex06-13.js"></script>
-
+ <script src="ex07-1.js"></script>
+ <script src="ex07-5.js"></script>
   </head>
              
   <body>
@@ -85,8 +86,23 @@ onclick="startfnc()">
               
   <h1>タイマーイベントの実行6-13</h1>
   <div id="back">
-  <input type="button" value="変更後３秒でまた戻る"onclick="ChangeImageAndBack()";>
+  <input type="button" value="変更後３秒でまた戻る" onclick="ChangeImageAndBack();">
     
-  <img src='./image/josai.png' id="img13" alt="Josai Logo" class="imagechange"
+  <img src='./image/josai.png' id="img13" alt="Josai Logo" class="imagechange">
+    
+   <h1>テキスト入力の練習7-1</h1>
+    <input type="button" value="あいさつ" onclick="sayhello71();">
+    <p>
+      誰？<input type="text" id="who71"></p>
+
+    
+    
+    <h1>なぞなぞ</h1>
+    <p>目を閉じていないと見られなものはなーに？</p>
+    <p>
+      答(感じ1文字で):<input type="text" id="answer">
+      <input type="button" value="解答" onclick="nazo();">
+    </p> </body>
+    
 
 </html>
